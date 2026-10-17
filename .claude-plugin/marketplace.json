@@ -1,0 +1,6 @@
+{
+  "name": "claude-chiikawa",
+  "description": "A pixel Chiikawa that lives above the Claude Code prompt",
+  "owner": { "name": "BBAAMM" },
+  "plugins": [{ "name": "chiikawa", "source": "./" }]
+}

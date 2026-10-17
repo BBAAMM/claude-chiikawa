@@ -1,0 +1,1 @@
+{ "name": "chiikawa", "version": "0.1.0", "description": "10x8 pixel Chiikawa above the prompt that moves while working and reacts with moods", "author": { "name": "BBAAMM" }, "types": "./types/index.d.ts" }

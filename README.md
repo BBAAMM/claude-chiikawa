@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🤍 치이카와
+# 🤍 치이카와 (Chiikawa · ちいかわ) for Claude Code
 
 **Claude Code 입력 창 위, 작은 풀밭에 치이카와가 살아요.**
 
 코딩하는 동안 옆에서 산책하고, 숨 쉬고, 같이 열일하고, 끝나면 기뻐해 줘요.
 
-[한국어](#한국어) · [English](#english)
+[한국어](#한국어) · [English](#english) · [日本語](#日本語)
 
 <img src="assets/stroll.gif" alt="치이카와가 입력 창 위 풀밭을 깡총깡총 산책하는 모습" width="720">
 
@@ -111,6 +111,44 @@ claude plugin install chiikawa --marketplace BBAAMM/claude-chiikawa
 ```
 
 In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `BBAAMM/claude-chiikawa`, then **Add plugin**.
+
+---
+
+## 日本語
+
+**Claude Code の入力欄の上、小さな草原にちいかわが住んでいます。**
+
+> **非営利のファンプロジェクトです。** ちいかわが大好きな気持ちで作った非公式のファンメイド作品で、商用利用は一切していません。ちいかわに関するすべての権利はナガノ先生および権利者に帰属します。
+
+### できること
+
+- 🌱 **おさんぽ**: 待機中は草原をぴょこぴょこ歩き回ります。目と口は進む方向を向きます。
+- 💨 **呼吸モーション**: じっとしているときは足を地面につけたまま、おなかがふくらんだりしぼんだりします。
+- 💪 **いっしょにお仕事**: Claude が作業している間は、その場で速く呼吸しながら `열일 중...`（「お仕事中…」）と表示します。
+- 🎭 **7つの表情**: プロンプトを送るとわくわく、終わるとにっこり、長引くとくたくた、エラーが出ると涙目で心配します。
+- 🍙 **食べ物の話に反応**: ごはん・コーヒー・おやつの話をすると `맛있는거 최고!`（「おいしいもの最高！」）。
+- 😴 **おひるね**: 5分間静かだと、青いおふとんをかけて眠ります。
+- 🌗 **テーマに合わせた草原**: 草原はやわらかい色で、ライト／ダークテーマの背景になじみます。
+
+`/chiikawa <表情>` で表情を手動で切り替えられます: `idle`, `happy`, `excited`, `yummy`, `tired`, `worried`, `sleepy`
+
+### インストール
+
+Claude Code のターミナルセッションの入力欄で:
+
+```
+/plugin install chiikawa --marketplace BBAAMM/claude-chiikawa
+```
+
+`Add marketplace?` に `y` を入力し、インストール範囲は一番上の user を Enter で選ぶと、すぐにちいかわが現れます。
+
+シェルからインストールする場合:
+
+```
+claude plugin install chiikawa --marketplace BBAAMM/claude-chiikawa
+```
+
+デスクトップアプリでは（`/plugin` は動作しません）、入力欄の横の **+** → **Plugins** → **Add marketplace** に `BBAAMM/claude-chiikawa` を入力 → **Add plugin**。
 
 ---
 

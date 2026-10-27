@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤍 치이카와 (Chiikawa · ちいかわ) for Claude Code
+# 치이카와 (Chiikawa/ちいかわ) for Claude Code
 
 **Claude Code 입력 창 위, 작은 풀밭에 치이카와가 살아요.**
 
